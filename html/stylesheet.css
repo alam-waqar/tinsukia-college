@@ -1,0 +1,176 @@
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: sans-serif;}
+.bottom-container{
+background-color:#161f24;
+padding: 50px 0 30px;
+align-items: center;
+
+}
+.links{
+
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.copyright{
+  text-align: center;
+}
+.top-container{
+  background-color:powderblue;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+}
+.top-container a{
+  margin: 15px;
+
+}
+
+.fa-youtube{
+color: red;
+}
+.fa-tweeter{
+  background: orange;
+
+}
+.fa-facebook{
+ background-color:white;
+ color:darkblue;
+
+}
+.fa-instagram{
+  background: pink;
+  color:red;
+
+}
+
+a:hover{
+  color:tan;
+}
+.copyright{
+  color: #EAF6F6;
+}
+
+
+.nav1{
+  width: 100%;
+  height: 80px;
+  color: red;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav1 i{
+  margin: 0 50px;
+}
+.brand{
+  margin:20px;
+}
+.nav1 a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  background: #e67e22;
+}
+
+
+.navbar-toggler{
+  background-color: #ff0000;
+}
+
+.navbar{
+  width: 100%;
+  height: 130px;
+  background: white;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.logo{
+  margin-top: 70px;
+}
+.collapse{
+  width: 100%;
+}
+  .nav-item{
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.navbar{
+  padding-bottom: 2rem;
+  padding: 0 0 4.5rem;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: "Montserrat-light";
+  color: #ff0000;
+  width: 100%;
+
+}
+
+
+header
+{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7)50%,#ce1047c2), url("https://img.freepik.com/premium-vector/e-learning-technology-concept_46706-901.jpg?size=626&ext=jpg&ga=GA1.2.923256073.1672631574&semt=sph");
+  background-size: 100% 100%;
+}
+.h-text{
+  max-width: 600px;
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.h-text h1{
+  font-size: 3em;
+  font-family:serif;
+  margin-top: 70px;
+  color: green;
+}
+.h-text p{
+  font-size: 20px;
+  margin: 40px 0;
+}
+.h-text a{
+  text-decoration: none;
+  color: white;
+  background:#e6229e9e;
+  padding: 10px 20px;
+
+}
+contact us
+.btn {
+  background: red;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #119994);
+  background-image: -moz-linear-gradient(top, #11cdd4, #119994);
+  background-image: -ms-linear-gradient(top, #11cdd4, #119994);
+  background-image: -o-linear-gradient(top, #11cdd4, #119994);
+  background-image: linear-gradient(to bottom, #11cdd4, #119994);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #c200c2;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  }
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
